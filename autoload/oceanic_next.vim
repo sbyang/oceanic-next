@@ -114,7 +114,8 @@ function! oceanic_next#highlight( base00, base01, base02, base03, base04, base05
   call s:hi('Keyword',                           a:purple, '',       '',          '')
 
   call s:hi('Label',                             a:yellow, '',       '',          '')
-  call s:hi('Number',                            a:orange, '',       '',          '')
+  call s:hi('Number',                            a:green, '',       '',          '')
+  " call s:hi('Number',                            a:orange, '',       '',          '')
   call s:hi('Operator',                          a:orange, '',       '',          '')
   call s:hi('PreProc',                           a:yellow, '',       '',          '')
   call s:hi('Repeat',                            a:yellow, '',       '',          '')
