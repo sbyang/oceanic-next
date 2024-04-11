@@ -311,6 +311,7 @@ function! oceanic_next#highlight( base00, base01, base02, base03, base04, base05
     call s:hi('@operator',                         a:orange, '',       '',          '')
     call s:hi('@tag',                              a:base07, '',       '',          '')
     call s:hi('@keyword',                          a:purple, '',       s:ts_keyword,          '')
+    call s:hi('@keyword.return',                   a:red, '',       s:ts_keyword,          '')
     call s:hi('@keyword.operator',                 a:purple, '',       '',          '')
     call s:hi('@variable.builtin',                 a:red,    '',       '',          '')
     call s:hi('@label',                            a:cyan,   '',       '',          '')
