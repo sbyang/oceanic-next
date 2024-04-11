@@ -298,7 +298,8 @@ function! oceanic_next#highlight( base00, base01, base02, base03, base04, base05
     call s:hi('@punctuation.delimiter',            a:cyan,   '',       '',          '')
     call s:hi('@punctuation.special',              a:cyan,   '',       '',          '')
     call s:hi('@parameter',                        a:base07, '',       '',          '')
-    call s:hi('@type',                             a:yellow, '',       '',          '')
+    " call s:hi('@type',                             a:yellow, '',       '',          '')
+    call s:hi('@type',                             a:cyan, '',       '',          '')
     call s:hi('@function',                         a:blue,   '',       '',          '')
 
     call s:hi('@tag.delimiter',                    a:cyan,   '',       '',          '')
